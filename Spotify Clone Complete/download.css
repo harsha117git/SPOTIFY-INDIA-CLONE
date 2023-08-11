@@ -1,0 +1,606 @@
+@font-face {
+    font-family:sm ;
+    src: url(Fonts/GothamMedium.ttf);
+}
+@font-face {
+    font-family:st ;
+    src: url(Fonts/Gotham-Thin.otf);
+}
+@font-face {
+    font-family:sb ;
+    src: url(Fonts/Gotham-Bold.otf);
+}
+@font-face {
+    font-family:sl ;
+    src: url(Fonts/Gotham-Light.otf);
+}
+body,html{
+margin: 0;
+height: 1919.73px;
+overflow-x: hidden;
+}
+
+ 
+*{
+    box-sizing: border-box;
+}
+#navdivmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    height: 200px;
+  background: black ;
+    
+z-index: 1;
+}
+
+#nav-container{
+    width: 1170px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    margin-left: 30px;
+    display: inline-flex;
+}
+
+#logonav{
+    position: relative;
+    left: 0px;
+    top: 20px;
+    width:132px;
+    height: 60px;
+}
+
+#logonav img{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width:132px;
+    height: 42px;
+}
+#nav-text{
+    position: relative;
+    top: 15px;
+    display: inline-flex;
+    width: 492.067px;
+    position: relative;
+    left: 462.5px;
+    color: white;
+}
+
+#nav-text a{
+   text-decoration: none;
+   font-family: sm;
+    color: white;
+   
+} 
+
+#nav-text a:hover{
+   
+    font-family: sm;
+     color: #1ed760;
+ } 
+ #nav-text ul{
+    list-style: none;
+    display: inline-flex;
+    
+ }
+ #nav-text li{
+    padding-left: 32px;
+    width: max-content;
+    font-size: 15px;
+ }
+ #seperator{
+    padding-left: 30px;
+    font-size: 16px;
+    position: relative;
+    top: -2.5px;
+ }
+
+
+
+#secondsection{
+    position:absolute;
+    top:80px;
+    width:100%;
+    height: 525px;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(25,230,140);
+
+}
+#ssinnermain{
+    width: 1170px;
+    height: 480px;
+   
+}
+
+#innerdivss{
+    position: relative;
+    top: 112.5px;
+    width: 1170px;
+    height: 402.8px;
+    text-align: center;
+    display: block;
+}
+
+#h1ss{
+    position: relative;
+    top: -8.5px;
+    left: 25px;
+    font-family:sb ;
+    font-size: 38px;
+    color: white;
+letter-spacing: -0.5px;
+display:flex;
+justify-content: center;
+}
+#lap{
+   width: 136px; 
+}
+#p1ss{
+    position: relative;
+    top: 37.5px;
+    font-family:sb ;
+    font-size: 46px;
+    color: black;
+    letter-spacing: -1.35px;
+}
+#gr{
+   position: relative;
+   top: 21.5px;
+   left: -85px;
+   width: 34px;
+   height: 34px;
+   z-index: 1;
+}
+
+#tick{
+    width: 15px;
+    height: 15px;
+    position:relative;
+    top: 30px;
+    left: -110px;
+    z-index: 3;
+    filter: invert(80%) sepia(68%) saturate(1248%) hue-rotate(87deg) brightness(99%) contrast(82%);
+    
+}
+#p2ss{
+    position: relative;
+    top: 70px;
+    position: relative;
+    font-family:sm;
+    font-size: 16px;
+    color: black;
+    letter-spacing: -1px;  
+}
+
+
+#buttonsss:hover{
+    transform: scale(1.05,1.05);
+    background-color: rgb(245, 245, 245);
+}
+#buttonsss span{
+    position: relative;
+    top: 16px;
+} 
+    #buttonsss{
+        position: relative;
+        top:110px;
+        width:130px;
+        height: 47.5px;
+        border-radius: 25px;
+        
+        display: inline-flex;
+transition: all 0.05s;
+color: black;
+justify-content: center;
+font-family: sb;
+background-color: white;
+font-size: 12.5px;
+    }
+
+    #butone{
+       text-decoration: none;
+    }
+    
+#button1ss{
+    width:160px;
+    height:51.2px;
+    color:white;
+    background-color:black;
+    line-height: 3.5;
+    font-family: sm;
+    font-size: 12px;
+    border-radius:30px;
+    letter-spacing: -0.25px;
+    
+}
+#buttonss:hover{
+    transform: scale(1.05,1.05);
+    background-color: rgb(161, 159, 159);
+}
+#button2ss:hover{
+    transform: scale(1.05,1.05);
+    background-color: #0c5dc0;
+}
+#button2ss{
+    position: relative;
+    left: 8px;
+    width:192.5px;
+    height:51.2px;
+    color:white;
+    background-color:none;
+    line-height: 3.15;
+    font-family: sm;
+    font-size: 15px;
+    border-radius:30px;
+    letter-spacing: -1px;
+    border: 2px solid white;
+}
+#tandc{
+position: relative;
+top: 125px;
+color: white;
+font-family: sl;
+font-size: 10.75px;
+font-weight: 600;
+letter-spacing: -0.75px;
+}
+#tandc a{
+    
+    color: white;
+    
+}
+#sectionthree{
+    position: absolute;
+    top: 600px;
+display: flex;
+width: 100%;
+justify-content: center;
+height: 250px;
+}
+#ss3innermain{
+width: 1170px;
+height: 250px;
+display: flex;
+justify-content: center;
+
+}
+#headthree{
+    position: absolute;
+    top: 77.5px;
+    text-align: center;font-family: sb;
+    font-size: 32px;
+    letter-spacing: -1.85px;
+    color: black;
+    width: 1770px;
+    
+}
+#secp2{
+font-family: sm;
+font-size: 15px;
+letter-spacing: -0.45px;
+width: max-content;
+position: absolute;
+top: 128px;
+}
+#ssthreeinner{
+    display:inline-flex;
+    position:relative;
+    left: -5px;
+    top: 180px;
+    
+}
+
+
+#threeone img{
+    width: 120px;
+    height: 60px;
+    position: relative;
+    left: -7px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+#threetwo img{
+position: relative;
+top: -8px;
+left: 5px;
+    width: 147px;
+    height: 75px;
+    text-align: center;
+    display: block;
+    justify-content: center
+}
+
+#threethree img{
+   position: relative;
+   top: 9.5px;
+   left: 17.5px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    justify-content: center
+}
+
+#threefour{
+    
+    width: 285px;
+    height: 283.3px;
+    text-align: center;
+    display: block;
+    justify-content: center
+}
+.threeinhead{
+    position: relative;
+    top: 38px;
+    font-family: sb;
+    font-size:20px ;
+    letter-spacing: -0.3px;
+}
+.threeintext{
+
+    font-family: sm;
+    font-size:14px ;
+    position: relative;
+    top: 52px;
+    width: 242.25px;
+    height:max-content;
+    margin-left: 20px;
+    line-height: 1.75;
+    letter-spacing: 0.15px;
+}
+#paymentoptionlist{
+display: inline-flex;
+width: 1170px;
+}
+
+#section4{
+    position: absolute;
+    width: 100%;
+    height: 974.35px;
+    top: 914px;
+background-color: rgb(35, 35, 35);
+display: flex;
+justify-content: center;
+}
+#section4inmain{
+width:1170px;
+height: 974.3px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+#paymentoptionlist img{
+    
+    width: 27%;
+    }
+
+    #ald{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 70px;
+      
+    }
+    #ald img{
+        width: 480px;
+    }
+    #aldlist {
+        display: flex;
+        justify-content: center;
+    }
+    #aldlist ul{
+      display: inline-flex;
+      width: max-content;
+      position: absolute;
+      top: 332.5px; 
+      color: white;
+      font-family: sm;
+      letter-spacing: -0.25px;
+      
+    } 
+    
+    #adlists{
+        list-style: disc;
+        color: #1ed760;
+    }
+    #mspan{
+        padding-top: 1.5px;
+        padding-right: 25px;
+    }
+    #adlists li{
+        list-style: disc;
+        color: #1ed760;
+        padding-right: 25px;
+    }
+    #adlists a{
+        
+        color: #1ed760;
+        padding-right: 10px;
+    }
+    #adlists span{
+        list-style: disc;
+        color: white;
+    }
+
+    #section4head{
+font-family: sb;
+font-size: 32px;
+position: absolute;
+top: 270px;
+width: max-content;
+height: max-content;
+letter-spacing: -1.4px;
+color: white;
+    }
+
+    #section4innertxt1{
+        position: absolute;
+        top: 127.5px;
+        font-family: sm;
+        font-size: 14.5px;
+letter-spacing: -0.1px;
+
+    }
+   
+    #last{
+        width: 100%;
+        position: absolute;
+top: 1365px;
+background-color: black;
+height: 554.6px;
+display: flex;
+justify-content: center;
+    }
+    #lastmain{
+        position: absolute;
+        top: 80px;
+        width: 1170px;
+    }
+    #lastmain1{
+        display: inline-flex;
+        width: 1170px;
+    }
+    #lastmain1 ul{
+        position: relative;
+        top: -5px;
+        left: 170px;
+        color: rgb(118, 118, 118);
+        font-family: sb;
+        font-size: 13px;
+        list-style: none;
+        line-height: 3;
+        
+    }
+    #lastmain1 ul a{
+        position: relative;
+        top: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #lastmain1 ul a:hover{
+color: #1ed760;
+    }
+    #companylist{
+        padding-right: 50px;
+    }
+    #communitylist{
+        padding-right: 38px;
+    }
+    #lastlogo{
+        position: absolute;
+        top: 0px;
+        width: 132px;
+        height: 42.5px;
+        left: 15px;
+        
+    }
+    #lastlogo img{
+        position: absolute;
+        top: 0px;
+        width: 132px;
+        height: 42.5px;
+    }
+    #logos{
+        display: inline-flex;
+    }
+#zone{
+    position: absolute;
+    right: 15px;
+    top:360px;
+    
+    display: inline-flex;
+ 
+    
+}
+#zone a{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-size: 11.5px;
+    font-family: sl;
+    letter-spacing: -0.5px;
+}
+#zone a:hover{
+    color: #1ed760;
+}
+#zone img{
+    position: relative;
+    left: -10px;
+}
+
+#copyright{
+    position:absolute;
+    top: 400px;
+    right: 13px;
+    color: rgb(95, 95, 95);
+    
+    display: inline-flex;
+    color: rgb(95, 95, 95);
+    font-size: 11.5px;
+    font-family: sm;
+    letter-spacing: -0.5px;
+}
+#copyright a{
+    
+}
+#lastlist ul{
+    position: absolute;
+    top: 388px;
+    left: -47.5px;
+    display: inline-flex;
+list-style: none;
+font-family: sl;
+font-size: 11.5px;
+position: absolute;
+
+
+
+}
+#lastlist li{
+    padding-left: 20px;
+}
+#lastlist a{
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+    letter-spacing: ;
+}
+#lastlist a:hover{
+    color:#1ed760;
+}
+#logos{
+    position: absolute;
+    left: 955.5px;
+    display: inline-flex;
+}
+#logos img{
+   filter: invert(100);
+   transition: all 0.1s ease;
+}
+.imglastdiv{
+   position:relative;
+   left: 0px;
+   top: 13px;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(42, 42, 42, 0.827);
+    border-radius: 50%;
+    margin: 7.2px;
+}
+.imglastdiv img{
+    position: relative;
+    top: 15px;
+    left:15.5px;
+    width: 24px;
+    height: 24px;
+   
+}
+
+#logos a:hover img{
+    filter: invert(69%) sepia(29%) saturate(1029%) hue-rotate(87deg) brightness(87%) contrast(110%);
+}
